@@ -1,5 +1,6 @@
-image: node
+image: yosuke/nodebrew
 script:
+  - nodebrew use stable
   - npm install -g grunt-cli
   - npm install -d
   - npm test
