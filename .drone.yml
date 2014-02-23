@@ -1,5 +1,6 @@
-image: yosuke/nodebrew
+image: teppeis/node-ubuntu
 script:
+  - nodebrew install-binary stable
   - nodebrew use stable
   - npm install -g grunt-cli
   - npm install -d
